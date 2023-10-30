@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 function Content() {
   return (
@@ -15,7 +16,7 @@ function Content() {
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
         
-        <img src="" alt="image here" />
+        <Image src="" alt="image here" />
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -23,7 +24,7 @@ function Content() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-        <img src="" alt="image here" />
+        <Image src="" alt="image here" />
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -31,7 +32,7 @@ function Content() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-         <img src="" alt="image here" />
+         <Image src="" alt="image here" />
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
@@ -39,7 +40,7 @@ function Content() {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
-        <img src="" alt="image here" />
+        <Image src="" alt="image here" />
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
